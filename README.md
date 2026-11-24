@@ -12,6 +12,13 @@ Try to build the 2-coloring directly: color a start vertex, BFS outward, give ev
 
 **Complexity:** O(V+E) time, O(V) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
